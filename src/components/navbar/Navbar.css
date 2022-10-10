@@ -7,17 +7,25 @@ ul {
   display: flex;
 }
 
-ul > li {
+li {
   list-style-type: none;
   padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-ul > li:hover {
+li:hover {
   background-color: #757575;
 }
 
 .link {
+  margin-left: 4px;
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
+}
+
+.icon {
+  color: whitesmoke;
 }

@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  background-color: #838383;
+}
+
+ul {
+  display: flex;
+}
+
+ul > li {
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+ul > li:hover {
+  background-color: #757575;
+}
+
+.link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
